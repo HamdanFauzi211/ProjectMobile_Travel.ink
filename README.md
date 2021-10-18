@@ -12,9 +12,11 @@
 
 |  |  |
 |--|--|
-| NIM | **contoh 123** |
-| Nama Lengkap | **contoh nama abc** |
-| Kelas | TI-3x |
+| NAMA KELOMPOK | **PDI (Pemuda Dengan Impian** |
+| Nama Lengkap dan NIM | **Hamdan Daalal Fauzi : 1941720148** |
+| Nama Lengkap dan NIM | **Khoirul Romadhon : 1941720102** |
+| Nama Lengkap dan NIM | **Muhammad Khoirul Wahyudin : 1941720160** |
+| Kelas | TI-3E |
 
 
 ## Struktur Folder
