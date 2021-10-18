@@ -1,4 +1,4 @@
-# Komputasi Awan
+# Pemrograman Mobile
 
 |  |  |
 |--|--|
@@ -16,7 +16,7 @@
 | Nama Lengkap dan NIM | **Hamdan Daalal Fauzi : 1941720148** |
 | Nama Lengkap dan NIM | **Khoirul Romadhon : 1941720102** |
 | Nama Lengkap dan NIM | **Muhammad Khoirul Wahyudin : 1941720160** |
-| Kelas | TI-3E |
+| Kelas | **TI-3E** |
 
 
 ## Struktur Folder
