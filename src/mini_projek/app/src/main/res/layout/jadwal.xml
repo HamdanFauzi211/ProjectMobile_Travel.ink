@@ -50,10 +50,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="25dp"
-        android:text="Avanza AE 1926 NU"
         android:fontFamily="@font/gilroybold"
+        android:text="Avanza AE 1926 NU"
         android:textColor="@color/white"
-        android:textSize="29dp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -77,7 +77,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toBottomOf="@+id/jadwal_1"
-        app:layout_constraintVertical_bias="0.004" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/asal_1"
@@ -86,10 +86,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="10dp"
-        android:text="Kota Asal : Madiun"
         android:fontFamily="@font/gilroysemibold"
-        android:textSize="17dp"
+        android:text="Kota Asal : Madiun"
         android:textColor="@color/white"
+        android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -118,18 +118,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="536dp" />
+        app:layout_constraintGuide_begin="511dp" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="80dp"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:layout_constraintVertical_bias="0.04"
+        app:layout_constraintVertical_bias="0.036"
         app:srcCompat="@drawable/logotravel" />
 
     <TextView
@@ -142,7 +142,7 @@
         android:fontFamily="@font/gilroybold"
         android:text="Avanza AE 2000 AA"
         android:textColor="@color/white"
-        android:textSize="29dp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -154,8 +154,6 @@
         android:id="@+id/waktu_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/gilroysemibold"
         android:text="Berangkat 17.00 WIB"
@@ -163,7 +161,7 @@
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toBottomOf="@+id/jadwal_2"
         app:layout_constraintVertical_bias="0.0" />
