@@ -7,9 +7,9 @@ android {
     buildToolsVersion "31.0.0"
 
     defaultConfig {
-        applicationId "com.kuliah.miniproject"
-        minSdkVersion 16
-        targetSdkVersion 30
+        applicationId "org.aplas.mini_projek"
+        minSdkVersion 21
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
