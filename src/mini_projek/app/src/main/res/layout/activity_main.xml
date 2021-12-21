@@ -4,16 +4,4 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
-    android:background="#F89C38"
-
-    <View
-    android:id="@+id/rectangle_1"
-    android:layout_width="1080dp"
-    android:layout_height="508dp"
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
-    android:background="@drawable/rectangle_1"
-        />
-
-
-    />
+    android:background="#F89C38"/>

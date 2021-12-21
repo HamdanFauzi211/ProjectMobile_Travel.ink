@@ -17,11 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".halaman_awal" />
         <activity android:name=".JadwalActivity" />
-        <activity android:name=".login" />
-        <activity android:name=".pesanActivity" />
-        <activity android:name=".RegisterActivity" />
     </application>
 
 </manifest>
