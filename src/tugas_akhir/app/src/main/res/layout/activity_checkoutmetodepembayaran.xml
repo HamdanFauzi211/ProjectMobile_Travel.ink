@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcheckout"
+    tools:context=".CheckoutmetodepembayaranActivity">
+
+    <TextView
+        android:id="@+id/halamancheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gilroybold"
+        android:text="PESANAN ANDA"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <ImageView
+        android:id="@+id/checkouticonlokasi"
+        android:layout_width="29dp"
+        android:layout_height="30dp"
+        android:background="@drawable/iconlokasiii"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/halamancheckout"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <ImageView
+        android:id="@+id/checkoutnamatravel"
+        android:layout_width="35dp"
+        android:layout_height="38dp"
+        android:background="@drawable/iconmobil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/halamancheckout"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <ImageView
+        android:id="@+id/checkouticonkursi"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:background="@drawable/kursi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toEndOf="@+id/checkoutnamatravel"
+        app:layout_constraintTop_toBottomOf="@+id/halamancheckout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gilroysemibold"
+        android:text="Harga Total : Rp. "
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkouticonkursi"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <ImageView
+        android:id="@+id/checkoutmetodepembayaran"
+        android:layout_width="400dp"
+        android:layout_height="194dp"
+        android:background="@drawable/bgmetodepem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkouticonlokasi"
+        app:layout_constraintVertical_bias="0.947" />
+
+    <TextView
+        android:id="@+id/checkoutpilihmetodepembayarannnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/gilroybold"
+        android:text="PILIH METODE PEMBAYARAN"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintStart_toStartOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintTop_toTopOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/bri"
+        android:layout_width="81dp"
+        android:layout_height="77dp"
+        android:background="@drawable/brilogo"
+        app:layout_constraintBottom_toBottomOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintEnd_toEndOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintTop_toBottomOf="@+id/checkoutpilihmetodepembayarannnn"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <ImageButton
+        android:id="@+id/linkaja"
+        android:layout_width="79dp"
+        android:layout_height="78dp"
+        android:background="@drawable/linkaja"
+        app:layout_constraintBottom_toBottomOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintEnd_toEndOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintTop_toBottomOf="@+id/checkoutpilihmetodepembayarannnn"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <ImageButton
+        android:id="@+id/cod"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        android:background="@drawable/cod"
+        app:layout_constraintBottom_toBottomOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintEnd_toEndOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="@+id/checkoutmetodepembayaran"
+        app:layout_constraintTop_toBottomOf="@+id/checkoutpilihmetodepembayarannnn"
+        app:layout_constraintVertical_bias="0.4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

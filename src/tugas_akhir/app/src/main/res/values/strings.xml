@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">miniProject</string>
+    <string-array name="nama_kota">
+        <item>NGAWI</item>
+        <item>MAOSPATI</item>
+        <item>MADIUN</item>
+        <item>NGANJUK</item>
+        <item>KERTOSONO</item>
+        <item>JOMBANG</item>
+        <item>MOJOKERTO</item>
+        <item>WARU</item>
+        <item>SURABAYA</item>
+    </string-array>
+
+    <string-array name="jumlah_kursi">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
