@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_rinciantrayek.xml" value="0.4615384446093323" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_checkoutmetodepembayaran.xml" value="0.26766304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_detailtrayektravel.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_home.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_konfirmasipesantravel.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_main.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_newjadwal.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_pesan.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/activity_rinciantrayek.xml" value="0.23076922230466615" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/halaman_awal.xml" value="0.2617753623188406" />
         <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/jadwal.xml" value="0.26766304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/UAS-Projek/ProjectMobile_Travel.ink/src/tugas_akhir/app/src/main/res/layout/register.xml" value="0.2617753623188406" />
         <entry key="..\:/Users/user/AndroidStudioProjects/miniProject/ProjectMobile_Travel.ink/src/mini_projek/app/src/main/res/layout/activity_checkoutmetodepembayaran.xml" value="0.30461537344215933" />
         <entry key="..\:/Users/user/AndroidStudioProjects/miniProject/ProjectMobile_Travel.ink/src/mini_projek/app/src/main/res/layout/activity_detailtrayektravel.xml" value="0.30461537344215933" />
         <entry key="..\:/Users/user/AndroidStudioProjects/miniProject/ProjectMobile_Travel.ink/src/mini_projek/app/src/main/res/layout/activity_konfirmasipesantravel.xml" value="0.23076922230466615" />
