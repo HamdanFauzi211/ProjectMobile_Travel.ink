@@ -1,13 +1,14 @@
 package com.kuliah.miniproject;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class pesanActivity extends AppCompatActivity {
+import android.os.Bundle;
+
+public class InvoiceActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pesan);
+        setContentView(R.layout.activity_invoice);
     }
 }

@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MiniProject">
         <activity
+            android:name=".InvoiceActivity"
+            android:exported="false" />
+        <activity
             android:name=".CheckoutmetodepembayaranActivity"
             android:exported="false" />
         <activity
