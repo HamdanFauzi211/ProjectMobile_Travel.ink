@@ -21,13 +21,21 @@ public class SplashScreen extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.splashcreen);
 
-        final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(), halaman_awal.class));
+                Intent i = new Intent(SplashScreen.this, halaman_awal.class);
+                startActivity(i);
                 finish();
             }
-        }, 3000L); //3000 L = 3 detik
+        }, 3000);
+//        final Handler handler = new Handler();
+//        handler.postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                startActivity(new Intent(getApplicationContext(), halaman_awal.class));
+//                finish();
+//            }
+//        }, 3000L);
     }
 }

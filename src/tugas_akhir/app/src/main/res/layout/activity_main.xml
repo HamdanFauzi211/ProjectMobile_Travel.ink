@@ -3,5 +3,4 @@
     android:id="@+id/halaman_jad"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:clipToOutline="true"
     android:background="#F89C38"/>

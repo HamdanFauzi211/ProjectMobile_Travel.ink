@@ -36,7 +36,7 @@
 
     <Spinner
         android:layout_width="187dp"
-        android:layout_height="21dp"
+        android:layout_height="48dp"
         android:entries="@array/nama_kota"
         android:outlineAmbientShadowColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,14 +64,15 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="365dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:shadowColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/masukkanalamatlengkap"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/masukkankursi"
@@ -104,6 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:entries="@array/jumlah_kursi"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.024"
@@ -114,12 +116,13 @@
     <ImageButton
         android:id="@+id/buttonkonfir"
         android:layout_width="385dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:background="@drawable/buttonkonfirmasi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.826" />
+        app:layout_constraintVertical_bias="0.826"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

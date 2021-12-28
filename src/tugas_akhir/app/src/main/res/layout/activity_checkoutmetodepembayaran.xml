@@ -109,7 +109,8 @@
         app:layout_constraintHorizontal_bias="0.219"
         app:layout_constraintStart_toStartOf="@+id/checkoutmetodepembayaran"
         app:layout_constraintTop_toBottomOf="@+id/checkoutpilihmetodepembayarannnn"
-        app:layout_constraintVertical_bias="0.411" />
+        app:layout_constraintVertical_bias="0.411"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/linkaja"
@@ -121,7 +122,8 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="@+id/checkoutmetodepembayaran"
         app:layout_constraintTop_toBottomOf="@+id/checkoutpilihmetodepembayarannnn"
-        app:layout_constraintVertical_bias="0.417" />
+        app:layout_constraintVertical_bias="0.417"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/cod"
@@ -133,6 +135,7 @@
         app:layout_constraintHorizontal_bias="0.782"
         app:layout_constraintStart_toStartOf="@+id/checkoutmetodepembayaran"
         app:layout_constraintTop_toBottomOf="@+id/checkoutpilihmetodepembayarannnn"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.4"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
