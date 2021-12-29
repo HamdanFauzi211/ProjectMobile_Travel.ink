@@ -24,8 +24,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.377" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <ImageButton
+        android:id="@+id/ImageButton"
         android:layout_width="61dp"
         android:layout_height="60dp"
         android:background="@drawable/icon_checkout"
@@ -34,7 +34,9 @@
         app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.478"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
     <TextView
         android:id="@+id/IconCheckout"
@@ -51,17 +53,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.482" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <ImageButton
+        android:id="@+id/ImageButton2"
         android:layout_width="61dp"
         android:layout_height="60dp"
         android:background="@drawable/icon_jadwaltravel"
+        android:onClick="pindah1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.631" />
+        app:layout_constraintVertical_bias="0.631"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/IconJadwalTravel"
@@ -78,8 +82,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.627" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <ImageButton
+        android:id="@+id/ImageButton3"
         android:layout_width="61dp"
         android:layout_height="60dp"
         android:background="@drawable/logouticon"
@@ -88,7 +92,8 @@
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.776" />
+        app:layout_constraintVertical_bias="0.776"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/IconLogout"
