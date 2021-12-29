@@ -21,4 +21,9 @@ public class Home extends AppCompatActivity {
         Intent intent = new Intent(Home.this, JadwalActivity.class);
         startActivity(intent);
     }
+
+    public void pindah8(View view) {
+        Intent intent = new Intent(Home.this, CheckoutmetodepembayaranActivity.class);
+        startActivity(intent);
+    }
 }
