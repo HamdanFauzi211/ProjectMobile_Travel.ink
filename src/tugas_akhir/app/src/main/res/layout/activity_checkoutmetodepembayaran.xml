@@ -104,6 +104,7 @@
         android:layout_width="81dp"
         android:layout_height="77dp"
         android:background="@drawable/brilogo"
+        android:onClick="pindah9"
         app:layout_constraintBottom_toBottomOf="@+id/checkoutmetodepembayaran"
         app:layout_constraintEnd_toEndOf="@+id/checkoutmetodepembayaran"
         app:layout_constraintHorizontal_bias="0.219"
