@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/gilroybold"
         android:text="Rincian"
+        android:onClick="pindah5"
         android:textColor="#CBCECD"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
