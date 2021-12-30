@@ -1,6 +1,12 @@
-# 03 - Pekan 1 UAS Mobile
+# LAPORAN UAS MOBILE
 
-## Mockup Desain
+## Nama Kelompok : Pemuda dengan Impian
+## Anggota Kelompok :
+### 1. Hamdan Daalal Fauzi
+### 2. Khoirul Romadhon
+### 3. Muhammad Khoirul Wahyudin
+
+
 
 ### SplashScreen
 ![Screenshot Dashboard Oracle](img/1-splashscreen.png)
